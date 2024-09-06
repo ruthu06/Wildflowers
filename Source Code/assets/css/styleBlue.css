@@ -1,0 +1,229 @@
+body {
+  background-color: #86C6F4;
+  /* overflow: hidden; */
+}
+
+.heading,
+.link {
+  color: #00308F;
+  text-shadow: 1px 1px 1px #00308F;
+}
+
+#details-box {
+  box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.7);
+  opacity: 0%;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 24px;
+  position: fixed;
+  color: white;
+  font-family: "Poppins";
+  background-color: black;
+  width: fit-content;
+  transform: translateX(-50%);
+  transition: opacity .4s ease;
+  z-index: 1;
+}
+
+/* Tableau Code */
+iframe {
+  position: relative;
+  left: -400px;
+  background-color: transparent;
+  width: 1700px;
+  height: 2000px;
+  -webkit-transform: scale(0.50);
+  -moz-transform: scale(0.50);
+  -o-transform: scale(0.50);
+  transform: scale(0.50);
+
+}
+
+#viz1686081324686,
+#viz1686081480557,
+#viz1686081549663,
+#viz1686091724442 {
+  position: relative;
+  left: 36%;
+  width: 50%;
+  overflow: hidden;
+  top: -700px;
+
+  /* width: 1600px !important; */
+  /* bottom: 100%; */
+  /* left: 50px; */
+  /* position: none !important; */
+  /* display: inline !important; */
+  height: 650px !important;
+}
+
+/* .dashboard-map {
+  position: relative;
+  top: 0%
+} */
+
+/* .tableauPlaceholder {
+  left: -150px;
+  top: -200px;
+} */
+
+#name,
+#family,
+#zone {
+  color: #57385c;
+}
+
+
+h6,
+.cloroplethHead {
+  color: #00308F;
+}
+
+.cloroplethHead {
+  top: 700px;
+}
+
+.flower {
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px black;
+  transition: transform .2s;
+  height: 80px;
+  width: 80px;
+}
+
+.ex-flower {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 5px #111;
+  box-shadow: 5px 5px 5px #111;
+}
+
+.ex-flower:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.pic_transform {
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  overflow: hidden;
+  height: 0px;
+}
+
+.map-header {
+  top: 20%;
+  position: relative;
+}
+
+i {
+  color: #00308F;
+}
+
+.picture {
+  margin-top: -80%;
+  position: relative;
+}
+
+.headtext {
+  top: -1040%;
+  position: relative;
+  color: #00308F;
+  position: relative;
+}
+
+.picture:hover .pic_transform {
+  height: 50px;
+}
+
+#myDiv {
+  width: 130%;
+  height: 500px;
+  background-color: #86C6F4;
+  /* z-index: 0; */
+}
+
+.svg-container {
+  left: -20%;
+  /* color: red !important; */
+}
+
+rect {
+  fill: #86C6F4 !important;
+  color: #86C6F4 !important;
+  /* fill-opacity: 1; */
+}
+
+.text_display {
+  transform-origin: top;
+  transition-duration: 0.5s;
+  -webkit-transform-origin: top;
+  -webkit-transition-duration: 0.5s;
+  -moz-transform-origin: top;
+  -moz-transition-duration: 0.5s;
+  -o-transform-origin: top;
+  -o-transition-duration: 0.5s;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: normal;
+  text-align: center;
+  color: #FFF;
+}
+
+.picture:hover .text_display {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin-top: 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  margin-top: 20%;
+  padding-top: 5%;
+}
+
+#us-map1,
+.mapspace {
+  display: block;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  width: 50%;
+  height: 50%;
+}
+
+#plantDetails {
+  top: 20%;
+  left: 0%;
+  position: relative;
+  /* display: block; */
+}
+
+/* path {
+  stroke: white;
+  fill: #ffcbcb !important;
+  transition: fill .4s ease;
+  transform-origin: center center;
+} */
+
+path:hover {
+  fill: #57385c !important;
+  cursor: pointer;
+  transform: scale(1.005, 1.005);
+}
+
+.flower:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  cursor: pointer;
+}
